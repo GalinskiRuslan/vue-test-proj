@@ -1,16 +1,15 @@
 <template>
   <div class="about-container">
-    <div>
-      <h3>{{ title }}</h3>
-      <p>{{ content }}</p>
-    </div>
-    <div><img :src="img" /></div>
+    <router-view></router-view>
+    <y-map></y-map>
   </div>
 </template>
 
 <script>
+import YMap from "../components/YMap/YMap.vue";
+
 export default {
-  props: ["title", "img", "content"],
+  components: { YMap },
 };
 </script>
 

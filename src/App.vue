@@ -1,9 +1,10 @@
 <script>
 import TheHeader from "./components/TheHeader/TheHeader.vue";
 import TheFooter from "./components/TheFooter/TheFooter.vue";
+import AboutPage from "./Pages/AboutPage.vue";
 
 export default {
-  components: { TheHeader, TheFooter },
+  components: { TheHeader, TheFooter, AboutPage },
   data() {
     return {};
   },

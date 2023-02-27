@@ -6,11 +6,13 @@
       :key="place.id"
       :class="'way-card' + place.id"
     >
-      <place-card
-        :imgSrc="place.img"
-        :cardTitle="place.name"
-        :topNum="place.id"
-      ></place-card>
+      <router-link :to="'/about/' + place.id">
+        <place-card
+          :imgSrc="place.img"
+          :cardTitle="place.name"
+          :topNum="place.id"
+        ></place-card>
+      </router-link>
     </div>
   </div>
 </template>
@@ -32,6 +34,15 @@ export default {
 </script>
 
 <style>
+a {
+  color: #5c5754;
+}
+a,
+.green {
+  text-decoration: none;
+  color: #5c5754;
+  transition: 0.4s;
+}
 .way-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

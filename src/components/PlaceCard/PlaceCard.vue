@@ -68,6 +68,7 @@ export default {
   font-weight: 400;
   font-size: 22px;
   text-align: center;
+  color: #5c5754;
 }
 .card-top {
   position: absolute;
@@ -82,6 +83,7 @@ export default {
   font-size: 22px;
   top: 13%;
   left: 30%;
+  color: #5c5754;
 }
 @media screen and (max-width: 1200px) {
   .card-container {
