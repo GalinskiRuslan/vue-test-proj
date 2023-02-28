@@ -36,7 +36,7 @@
   <div class="footer-container">
     <div class="footer-container-left">
       <router-link to="/">
-        <img src="../../assets/icons/image 10.png" />
+        <img src="../../assets/icons/image10.png" />
       </router-link>
     </div>
     <div class="footer-container-right">
