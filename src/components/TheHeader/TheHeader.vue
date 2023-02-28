@@ -90,7 +90,7 @@
     </div>
 
     <div class="header-list-mob" v-show="show">
-      <img class="logo" src="../../assets/icons/image 9.png" />
+      <img class="logo" src="../../assets/icons/image9.png" />
       <ul>
         <li><p class="header-p-mob">Алматы</p></li>
         <li><p class="header-p-mob">Астана</p></li>
